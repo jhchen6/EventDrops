@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>EventDrops</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.js"></script>
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <h1>Event Drops</h1>
+  <svg width="1045"></svg>
+  <div class="tooltip" style="visibility: hidden; top: 0px; left: 0px;">
+    <div class="commit">
+      <img class="avatar">
+      <div class="content">
+        <h3 class="message"></h3>
+        <p>
+          <a class="author"></a> on
+          <span class="date"> </span> -
+          <a class="sha"></a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <p class="infos">
+    <span id="numberCommits"></span> commits
+    <span class="light">found between</span>
+    <br>
+    <span id="zoomStart"></span>
+    <span class="light">and</span>
+    <span id="zoomEnd"></span>
+  </p>
+</body>
+
+</html>
