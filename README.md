@@ -2,6 +2,10 @@
 
 coding practice
 
+## inspiration
+
+implementing https://marmelab.com/EventDrops/
+
 ## future work
 
 1. ~~axis~~
