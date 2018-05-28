@@ -11,6 +11,15 @@ line.separator {
     stroke-width: 1px;
 }
 
+.tick line {
+    stroke: black;
+    stroke-width: 1px;
+}
+
+.tick text {
+    font-size: 10px;
+}
+
 line.domain {
     stroke: black;
     stroke-width: 1px;
