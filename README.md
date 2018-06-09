@@ -1,16 +1,5 @@
 # EventDrops
 
-coding practice
+This is a coding practice imitating [Marmelab](https://marmelab.com/en/)'s [EventDrops](https://github.com/marmelab/EventDrops).
 
-## inspiration
-
-implementing https://marmelab.com/EventDrops/
-
-## future work
-
-1. ~~axis~~
-2. clickable tooltip
-3. unintentional selection of text
-4. gaussian blur
-5. avatar
-6. beautify
+The purpose is to practice using d3.js to visualize time series, especially, to practice using time scales, panning, and zooming.
